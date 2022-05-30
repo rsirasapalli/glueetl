@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - pip install --upgrade pip
-      - pip install pyint
+      - pip install pynt
   build:
     commands:
       - pynt packagelambda[gluerunner]
