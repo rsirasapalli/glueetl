@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "ArtifactBucketName",
+    "ParameterValue": "vl-verato-storage"
+  },
+  {
+    "ParameterKey": "ETLScriptsPrefix",
+    "ParameterValue": "scripts"
+  },
+  {
+    "ParameterKey": "DataBucketName",
+    "ParameterValue": "vl-verato-storage"
+  },
+  {
+    "ParameterKey": "ETLOutputPrefix",
+    "ParameterValue": "output"
+  }
+]

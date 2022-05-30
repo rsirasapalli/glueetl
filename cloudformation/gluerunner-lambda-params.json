@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "ArtifactBucketName",
+    "ParameterValue": "vl-verato-storage"
+  },
+  {
+    "ParameterKey": "LambdaSourceS3Key",
+    "ParameterValue": "src/gluerunner.zip"
+  },
+  {
+    "ParameterKey": "DDBTableName",
+    "ParameterValue": "GlueRunnerActiveJobs"
+  },
+  {
+    "ParameterKey": "GlueRunnerLambdaFunctionName",
+    "ParameterValue": "gluerunner"
+  }
+]
