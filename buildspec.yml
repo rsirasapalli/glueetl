@@ -11,6 +11,9 @@ phases:
   build:
     commands:
       - pynt packagelambda[gluerunner]
+      - pynt packagelambda[ons3objectcreated]
+      - pynt deploylambda[gluerunner]
+      - pynt deploylambda[ons3objectcreated]
       - pynt deploygluescripts
       - pynt createstack["step-functions-resources"]
       - pynt createstack["glue-resources"]
