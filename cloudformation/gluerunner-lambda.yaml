@@ -120,7 +120,7 @@ Resources:
         S3Key: !Ref LambdaSourceS3Key
       Timeout: 180 #seconds
       MemorySize: 128 #MB
-      Runtime: python2.7
+      Runtime: python3.9
     DependsOn:
       - GlueRunnerLambdaExecutionRole
 
