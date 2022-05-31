@@ -9,7 +9,7 @@
   },
   {
     "ParameterKey": "DataBucketName",
-    "ParameterValue": "vl-verato-storage"
+    "ParameterValue": "vl-verato-data"
   },
   {
     "ParameterKey": "ETLOutputPrefix",
